@@ -40,42 +40,15 @@
         "nixpkgs": [
           "nixpkgs"
         ],
-        "oldgtk3-master": "oldgtk3-master"
-      },
-      "locked": {
-        "lastModified": 1648107937,
-        "narHash": "sha256-in8pcf94IiOTPxhkyqPPSXCU3+fEcLaXNDsjrIB29c0=",
-        "owner": "nim-nix-pkgs",
-        "repo": "oldgtk3",
-        "rev": "d08c2f005e21df757dbb48b4d63800b9b76e4eb1",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "oldgtk3",
-        "type": "github"
-      }
-    },
-    "oldgtk3-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "oldgtk3",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "oldgtk3",
-          "nixpkgs"
-        ],
         "src-oldgtk3-master": "src-oldgtk3-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648107937,
-        "narHash": "sha256-in8pcf94IiOTPxhkyqPPSXCU3+fEcLaXNDsjrIB29c0=",
+        "lastModified": 1648163425,
+        "narHash": "sha256-xI4ZdIH2Ba+rCchGcy+gblyY3VvVAQ8Ueslu0a4wyx8=",
         "owner": "nim-nix-pkgs",
         "repo": "oldgtk3",
-        "rev": "d08c2f005e21df757dbb48b4d63800b9b76e4eb1",
+        "rev": "af641c47d0f4aa9739f80aeae9261cd57b77e548",
         "type": "github"
       },
       "original": {
