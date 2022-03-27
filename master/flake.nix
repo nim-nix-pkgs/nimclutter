@@ -11,6 +11,7 @@
   inputs.src-nimclutter-master.ref   = "refs/heads/master";
   inputs.src-nimclutter-master.owner = "KeepCoolWithCoolidge";
   inputs.src-nimclutter-master.repo  = "nimclutter";
+  inputs.src-nimclutter-master.dir   = "";
   inputs.src-nimclutter-master.type  = "github";
   
   inputs."oldgtk3".owner = "nim-nix-pkgs";
