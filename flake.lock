@@ -21,6 +21,34 @@
         "type": "github"
       }
     },
+    "nimclutter-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "oldgtk3": "oldgtk3",
+        "src-nimclutter-master": "src-nimclutter-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651556783,
+        "narHash": "sha256-iEjbXXOz35rbCfqvOMiOFV2Tl1w6RsoaUDIuJu/4MG8=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimclutter",
+        "rev": "2e9097d45874005d751e8a220cdf80784ef12b9a",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimclutter",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "narHash": "sha256-7sWpWRO0IsBP5jm9qCrpuzDkWC7UAghiCmZZ+1uqHKo=",
@@ -35,20 +63,22 @@
     "oldgtk3": {
       "inputs": {
         "flakeNimbleLib": [
+          "nimclutter-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "nimclutter-master",
           "nixpkgs"
         ],
         "src-oldgtk3-master": "src-oldgtk3-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651918263,
-        "narHash": "sha256-K5cPfaOh6U0ECj2w5koveg8mRxtlm55LPrgqVGd+IxM=",
+        "lastModified": 1651555845,
+        "narHash": "sha256-TAQWsvWN4NE5B20KoXREC4F8BM6rWQ1O7NYxoFLCf/U=",
         "owner": "nim-nix-pkgs",
         "repo": "oldgtk3",
-        "rev": "611c33d5b3d114570c457cbb32a22ed7d753d40c",
+        "rev": "8bb9bcd34b147f623342901936cb8478caf8ead5",
         "type": "github"
       },
       "original": {
@@ -62,9 +92,8 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
-        "nixpkgs": "nixpkgs",
-        "oldgtk3": "oldgtk3",
-        "src-nimclutter-master": "src-nimclutter-master"
+        "nimclutter-master": "nimclutter-master",
+        "nixpkgs": "nixpkgs"
       }
     },
     "src-nimclutter-master": {
